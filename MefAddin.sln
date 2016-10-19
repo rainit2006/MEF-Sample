@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseAddinForm", "MefAddin\UseAddinForm.csproj", "{8AC31FA6-9990-4D06-BB30-2B5F1D801D38}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47573D8D-5D2E-4BDE-8189-0F53B7D082F9} = {47573D8D-5D2E-4BDE-8189-0F53B7D082F9}
+		{5D34E19E-19B6-4CA9-83F6-999345334260} = {5D34E19E-19B6-4CA9-83F6-999345334260}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddinA", "AddinA\AddinA.csproj", "{47573D8D-5D2E-4BDE-8189-0F53B7D082F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddinB", "AddinB\AddinB.csproj", "{5D34E19E-19B6-4CA9-83F6-999345334260}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8FBBC79A-AC4E-473F-B566-596C8538ACB1} = {8FBBC79A-AC4E-473F-B566-596C8538ACB1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddinContract", "AddinContract\AddinContract.csproj", "{8FBBC79A-AC4E-473F-B566-596C8538ACB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AC31FA6-9990-4D06-BB30-2B5F1D801D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC31FA6-9990-4D06-BB30-2B5F1D801D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC31FA6-9990-4D06-BB30-2B5F1D801D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC31FA6-9990-4D06-BB30-2B5F1D801D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47573D8D-5D2E-4BDE-8189-0F53B7D082F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47573D8D-5D2E-4BDE-8189-0F53B7D082F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47573D8D-5D2E-4BDE-8189-0F53B7D082F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47573D8D-5D2E-4BDE-8189-0F53B7D082F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D34E19E-19B6-4CA9-83F6-999345334260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D34E19E-19B6-4CA9-83F6-999345334260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D34E19E-19B6-4CA9-83F6-999345334260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D34E19E-19B6-4CA9-83F6-999345334260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FBBC79A-AC4E-473F-B566-596C8538ACB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBBC79A-AC4E-473F-B566-596C8538ACB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBBC79A-AC4E-473F-B566-596C8538ACB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBBC79A-AC4E-473F-B566-596C8538ACB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
